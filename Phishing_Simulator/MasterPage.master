@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 68%;
+            font-family: Verdana;
+            font-size: small;
+        }
+        .style2
+        {
+            width: 100%;
+            height: 227px;
+        }
+    </style>
+    <script language="javascript" type="text/javascript">
+        function addmail() { 
+            
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <center>
+        <table class="style1" border="1">
+            <tr>
+                <td colspan="2" style="font-weight: 700; text-align: left;">
+                    Horde Mail Service</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="font-weight: 700; text-align: right">
+                    Mail | News | Notes | Calender | Dashboard | OAuth | Print</td>
+            </tr>
+            <tr>
+                <td width="20%" valign="top" style="text-align: left">
+                    <%--<asp:Menu ID="Menu1" runat="server">
+                        <DynamicMenuItemStyle VerticalPadding="10px" />
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/inbox.aspx" Text="Inbox" Value="Inbox">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="./drafts.aspx" Text="Drafts" Value="Drafts">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Sent mails" Value="Sent mails"></asp:MenuItem>
+                            <asp:MenuItem Text="Spams" Value="Spams"></asp:MenuItem>
+                            <asp:MenuItem Text="Important" Value="Important"></asp:MenuItem>
+                            <asp:MenuItem Text="Labels" Value="Labels">
+                                <asp:MenuItem Text="Travel" Value="Travel"></asp:MenuItem>
+                                <asp:MenuItem Text="Study" Value="Study"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Other" Value="Other"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>--%>
+                    <table class="style2">
+                        <tr>
+                            <td>
+                                <a href="#" onclick="addmail()">Get Mails</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="mail.aspx">Inbox</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="drafts.aspx">Drafts</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="sent.aspx">Sent Mails</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Spams</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Important</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Labels</a>
+                                    <br />
+                                &nbsp;&nbsp;&nbsp;
+                                <a href="#">    Travel</a>
+                                    <br />
+                                &nbsp;&nbsp;&nbsp;
+                                <a href="#">    Studies</a>
+                                    <br />
+
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+                                <a href="#">Other</a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <div style="height: 599px">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    All rights reserved, &copy 2013, horde mail service &nbsp;</td>
+            </tr>
+        </table>
+        </center>
+    </div>
+    </form>
+</body>
+</html>
