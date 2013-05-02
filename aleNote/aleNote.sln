@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aleNote", "aleNote\aleNote.csproj", "{DF08BF0F-BE1E-45CE-B4B3-54EEFFAA8456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF08BF0F-BE1E-45CE-B4B3-54EEFFAA8456}.Debug|x86.ActiveCfg = Debug|x86
+		{DF08BF0F-BE1E-45CE-B4B3-54EEFFAA8456}.Debug|x86.Build.0 = Debug|x86
+		{DF08BF0F-BE1E-45CE-B4B3-54EEFFAA8456}.Release|x86.ActiveCfg = Release|x86
+		{DF08BF0F-BE1E-45CE-B4B3-54EEFFAA8456}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

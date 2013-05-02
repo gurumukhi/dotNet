@@ -1,0 +1,8 @@
+c:\users\ramdayal\documents\visual studio 2010\Projects\aleNote\aleNote\obj\x86\Debug\aleNote.Form1.resources
+c:\users\ramdayal\documents\visual studio 2010\Projects\aleNote\aleNote\obj\x86\Debug\aleNote.Properties.Resources.resources
+c:\users\ramdayal\documents\visual studio 2010\Projects\aleNote\aleNote\obj\x86\Debug\aleNote.csproj.GenerateResource.Cache
+c:\users\ramdayal\documents\visual studio 2010\Projects\aleNote\aleNote\bin\Debug\aleNote.exe
+c:\users\ramdayal\documents\visual studio 2010\Projects\aleNote\aleNote\bin\Debug\aleNote.pdb
+c:\users\ramdayal\documents\visual studio 2010\Projects\aleNote\aleNote\obj\x86\Debug\aleNote.exe
+c:\users\ramdayal\documents\visual studio 2010\Projects\aleNote\aleNote\obj\x86\Debug\aleNote.pdb
+C:\Users\Ramdayal\documents\visual studio 2010\Projects\aleNote\aleNote\obj\x86\Debug\aleNote.csprojResolveAssemblyReference.cache
